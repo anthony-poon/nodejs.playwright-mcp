@@ -1,0 +1,13 @@
+{
+  "prompt": "Gather information about the weather in the coming day. T being today",
+  "subject": "Berlin",
+  "goals": [
+    { "name": "temperature_t_1_day", "type": "number", "description": "Temperature in Celsius of T+1 day", "isRequired": true },
+    { "name": "temperature_t_2_day", "type": "number", "description": "Temperature in Celsius of T+2 day", "isRequired": true },
+    { "name": "temperature_t_3_day", "type": "number", "description": "Temperature in Celsius of T+3 day", "isRequired": true },
+    { "name": "temperature_t_4_day", "type": "number", "description": "Temperature in Celsius of T+4 day", "isRequired": true },
+    { "name": "temperature_t_5_day", "type": "number", "description": "Temperature in Celsius of T+5 day", "isRequired": true },
+    { "name": "temperature_t_6_day", "type": "number", "description": "Temperature in Celsius of T+6 day", "isRequired": true },
+    { "name": "temperature_t_7_day", "type": "number", "description": "Temperature in Celsius of T+7 day", "isRequired": true }
+  ]
+}
